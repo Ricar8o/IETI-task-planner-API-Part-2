@@ -1,0 +1,19 @@
+{
+  "name": "task-planner-api",
+  "version": "1.0.0",
+  "description": "Task API",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricar8o/IETI-task-planner-API-Part-2.git"
+  },
+  "author": "Ricar8o",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ricar8o/IETI-task-planner-API-Part-2/issues"
+  },
+  "homepage": "https://github.com/Ricar8o/IETI-task-planner-API-Part-2#readme"
+}
