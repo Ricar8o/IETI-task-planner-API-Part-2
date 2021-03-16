@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Ricar8o/IETI-task-planner-API-Part-2/issues"
   },
-  "homepage": "https://github.com/Ricar8o/IETI-task-planner-API-Part-2#readme"
+  "homepage": "https://github.com/Ricar8o/IETI-task-planner-API-Part-2#readme",
+  "dependencies": {
+    "date-fns": "^2.19.0"
+  }
 }
