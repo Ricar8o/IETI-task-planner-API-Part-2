@@ -1,3 +1,7 @@
+**NOTE**
+
+The form does not actually add the information, but it reach the API endpoint in azure, you can see the response data in the console. 
+
 # Azure API 
 
 ## Run Local
@@ -28,3 +32,4 @@ If func command does not work, run this:
     cd frontend-consumption
     npm install
     npm start
+
