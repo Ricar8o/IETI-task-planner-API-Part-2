@@ -38,7 +38,7 @@ module.exports = async function (context, req) {
         body: responseMessage
     };
     
-};
+}
 
 function formatDate(date){
     const dateFormat = "dd/MM/yyyy";

@@ -1,3 +1,5 @@
+const { format, isValid } = require("date-fns");
+
 module.exports = async function (context) {
     context.log('looking for taks');
 
@@ -10,7 +12,7 @@ module.exports = async function (context) {
             "email": "andres.martinez-d@mail.escuelaing.edu.co"
         },
         "status": "Done",
-        "dueDate":  new Date()
+        "dueDate":  formatDate(new Date())
     }
 
     taskList.push(task,task);
@@ -24,4 +26,12 @@ module.exports = async function (context) {
             'Content-Type': 'application/json'
         }
     };
+}
+
+function formatDate(date){
+    const dateFormat = "dd/MM/yyyy";
+    if (isValid (date)){
+        return format(date,dateFormat);
+    }
+    return null;
 }
