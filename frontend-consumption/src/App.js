@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { TaskForm } from './components/TaskForm';
 import { TaskList } from './components/TaskList';
 
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
       return (
           <div>
               <TaskList taskList={this.state.taskList}/>
+              <TaskForm/>
           </div>
       );
   }
