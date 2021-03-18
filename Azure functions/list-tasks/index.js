@@ -6,10 +6,10 @@ module.exports = async function (context) {
     var taskList = [];
 
     const task = {
-        "description": "Probar API en azure ",
+        "description": "Probar una API desplegada en azure ",
         "responsible": {
             "name": "Ricardo Martinez",
-            "email": "andres.martinez-d@mail.escuelaing.edu.co"
+            "email": "ricardo@somemail.com"
         },
         "status": "Done",
         "dueDate":  formatDate(new Date())
